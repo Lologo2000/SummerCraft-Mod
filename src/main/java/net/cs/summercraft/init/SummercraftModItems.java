@@ -17,10 +17,12 @@ import net.cs.summercraft.SummercraftMod;
 public class SummercraftModItems {
 	public static Item TRAGAPERRAS;
 	public static Item EXPEND_AMARILLA;
+	public static Item CAJERO_AUTOMATICO;
 
 	public static void load() {
 		TRAGAPERRAS = register("tragaperras", new BlockItem(SummercraftModBlocks.TRAGAPERRAS, new Item.Properties()));
 		EXPEND_AMARILLA = register("expend_amarilla", new BlockItem(SummercraftModBlocks.EXPEND_AMARILLA, new Item.Properties()));
+		CAJERO_AUTOMATICO = register("cajero_automatico", new BlockItem(SummercraftModBlocks.CAJERO_AUTOMATICO, new Item.Properties()));
 	}
 
 	public static void clientLoad() {

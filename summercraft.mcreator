@@ -1,21 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "CajeroAutomatico0",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cajero_automatico_0",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/summercraft/models/item/cajero_automatico_0.json",
-          "src/main/java/net/crafteandoservidores/summercraft/block/CajeroAutomatico0Block.java",
-          "src/main/resources/assets/summercraft/models/block/cajero_automatico_0.json",
-          "src/main/resources/assets/summercraft/blockstates/cajero_automatico_0.json"
-        ]
-      }
-    },
-    {
       "name": "Tragaperras",
       "type": "block",
       "compiles": true,
@@ -26,7 +11,7 @@
           "src/main/resources/assets/summercraft/models/block/tragaperras.json",
           "src/main/resources/assets/summercraft/models/item/tragaperras.json",
           "src/main/resources/assets/summercraft/blockstates/tragaperras.json",
-          "src/main/java/net/crafteandoservidores/summercraft/block/TragaperrasBlock.java"
+          "src/main/java/net/cs/summercraft/block/TragaperrasBlock.java"
         ]
       }
     },
@@ -38,10 +23,25 @@
       "registry_name": "expend_amarilla",
       "metadata": {
         "files": [
-          "src/main/java/net/crafteandoservidores/summercraft/block/ExpendAmarillaBlock.java",
+          "src/main/java/net/cs/summercraft/block/ExpendAmarillaBlock.java",
           "src/main/resources/assets/summercraft/models/block/expend_amarilla.json",
           "src/main/resources/assets/summercraft/models/item/expend_amarilla.json",
           "src/main/resources/assets/summercraft/blockstates/expend_amarilla.json"
+        ]
+      }
+    },
+    {
+      "name": "CajeroAutomatico",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cajero_automatico",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/summercraft/models/block/cajero_automatico.json",
+          "src/main/resources/assets/summercraft/models/item/cajero_automatico.json",
+          "src/main/java/net/cs/summercraft/block/CajeroAutomaticoBlock.java",
+          "src/main/resources/assets/summercraft/blockstates/cajero_automatico.json"
         ]
       }
     }
@@ -50,7 +50,11 @@
   "sound_elements": [],
   "tag_elements": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.summercraft.expend_amarilla": "Máquina expendedora amarilla",
+      "block.summercraft.cajero_automatico": "Cajero Automatico",
+      "block.summercraft.tragaperras": "Máquina tragaperras"
+    }
   },
   "foldersRoot": {
     "name": "~",
