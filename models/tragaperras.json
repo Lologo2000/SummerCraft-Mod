@@ -149,6 +149,16 @@
 			}
 		}
 	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.13281, 0.11133, 0.15625]
+		},
+		"gui": {
+			"rotation": [0, 180, 0],
+			"translation": [0, -4, 0],
+			"scale": [0.5625, 0.50586, 1]
+		}
+	},
 	"groups": [
 		{
 			"name": "caja",
