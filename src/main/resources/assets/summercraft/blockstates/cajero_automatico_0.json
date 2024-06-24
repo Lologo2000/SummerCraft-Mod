@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "summercraft:block/cajero_automatico_0"
+    },
+    "facing=east": {
+      "model": "summercraft:block/cajero_automatico_0",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "summercraft:block/cajero_automatico_0",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "summercraft:block/cajero_automatico_0",
+      "y": 270
+    }
+  }
+}

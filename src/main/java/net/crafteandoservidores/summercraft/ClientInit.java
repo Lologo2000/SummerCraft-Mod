@@ -10,16 +10,20 @@
 *	will be REGENERATED on each build.
 *
 */
-package net.cs.summercraft;
+package net.crafteandoservidores.summercraft;
 
 import net.fabricmc.api.Environment;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.ClientModInitializer;
 
+import net.crafteandoservidores.summercraft.init.SummercraftModBlocks;
+
 @Environment(EnvType.CLIENT)
 public class ClientInit implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
+
+		SummercraftModBlocks.clientLoad();
 
 	}
 }

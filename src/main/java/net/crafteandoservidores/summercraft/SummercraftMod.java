@@ -10,12 +10,15 @@
  *	will be REGENERATED on each build.
  *
  */
-package net.cs.summercraft;
+package net.crafteandoservidores.summercraft;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
 import net.fabricmc.api.ModInitializer;
+
+import net.crafteandoservidores.summercraft.init.SummercraftModItems;
+import net.crafteandoservidores.summercraft.init.SummercraftModBlocks;
 
 public class SummercraftMod implements ModInitializer {
 	public static final Logger LOGGER = LogManager.getLogger();
@@ -24,6 +27,9 @@ public class SummercraftMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Initializing SummercraftMod");
+
+		SummercraftModBlocks.load();
+		SummercraftModItems.load();
 
 	}
 }

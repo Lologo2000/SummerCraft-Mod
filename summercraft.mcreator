@@ -1,10 +1,28 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "CajeroAutomatico0",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cajero_automatico_0",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/summercraft/models/item/cajero_automatico_0.json",
+          "src/main/java/net/crafteandoservidores/summercraft/block/CajeroAutomatico0Block.java",
+          "src/main/resources/assets/summercraft/models/block/cajero_automatico_0.json",
+          "src/main/resources/assets/summercraft/blockstates/cajero_automatico_0.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.summercraft.cajero_automatico_0": "Cajero Automatico 0"
+    }
   },
   "foldersRoot": {
     "name": "~",
@@ -13,17 +31,19 @@
   "workspaceSettings": {
     "modid": "summercraft",
     "modName": "Summercraft",
-    "version": "1.0.0",
-    "author": "Codigo29, MCreator",
-    "websiteURL": "https://mcreator.net",
-    "license": "Not specified",
+    "version": "24.6.24",
+    "description": "Mod oficial del servidor de SummerCraft · Edición 2024",
+    "author": "SummerCraft Team",
+    "license": "All Rights Reserved",
     "serverSideOnly": false,
+    "modPicture": "modpack_main_logo",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "fabric-1.20.1",
-    "modElementsPackage": "net.cs.summercraft"
+    "credits": "Codigo29, Braismp007",
+    "modElementsPackage": "net.crafteandoservidores.summercraft"
   },
   "mcreatorVersion": 202400118518
 }

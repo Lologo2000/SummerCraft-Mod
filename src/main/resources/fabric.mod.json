@@ -1,24 +1,26 @@
 {
   "schemaVersion": 1,
   "id": "summercraft",
-  "version": "1.0.0",
+  "version": "24.6.24",
   "name": "Summercraft",
+  "description": "Mod oficial del servidor de SummerCraft · Edición 2024",
   "authors": [
-    "Codigo29, MCreator"
+    "SummerCraft Team"
   ],
   "contact": {
     "homepage": "https://mcreator.net",
     "sources": ""
   },
-  "license": "Not specified",
+  "license": "All Rights Reserved",
+  "icon": "assets/summercraft/icon.png",
   "accessWidener": "summercraft.accesswidener",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.cs.summercraft.SummercraftMod"
+      "net.crafteandoservidores.summercraft.SummercraftMod"
     ],
     "client": [
-      "net.cs.summercraft.ClientInit"
+      "net.crafteandoservidores.summercraft.ClientInit"
     ]
   },
   "depends": {
@@ -26,5 +28,8 @@
     "fabric": "*",
     "minecraft": "~1.20",
     "java": ">=17"
-  }
+  },
+  "mixins": [
+    "summercraft.mixins.json"
+  ]
 }
