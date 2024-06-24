@@ -9,18 +9,23 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.Registry;
 
-import net.cs.summercraft.block.CajeroAutomatico0Block;
 import net.cs.summercraft.SummercraftMod;
 
+import net.crafteandoservidores.summercraft.block.TragaperrasBlock;
+import net.crafteandoservidores.summercraft.block.ExpendAmarillaBlock;
+
 public class SummercraftModBlocks {
-	public static Block CAJERO_AUTOMATICO_0;
+	public static Block TRAGAPERRAS;
+	public static Block EXPEND_AMARILLA;
 
 	public static void load() {
-		CAJERO_AUTOMATICO_0 = register("cajero_automatico_0", new CajeroAutomatico0Block());
+		TRAGAPERRAS = register("tragaperras", new TragaperrasBlock());
+		EXPEND_AMARILLA = register("expend_amarilla", new ExpendAmarillaBlock());
 	}
 
 	public static void clientLoad() {
-		CajeroAutomatico0Block.clientInit();
+		TragaperrasBlock.clientInit();
+		ExpendAmarillaBlock.clientInit();
 	}
 
 	private static Block register(String registryName, Block block) {
