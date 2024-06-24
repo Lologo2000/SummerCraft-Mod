@@ -23,10 +23,10 @@
       "registry_name": "expend_amarilla",
       "metadata": {
         "files": [
-          "src/main/java/net/crafteandoservidores/summercraft/block/ExpendAmarillaBlock.java",
           "src/main/resources/assets/summercraft/models/block/expend_amarilla.json",
-          "src/main/resources/assets/summercraft/models/item/expend_amarilla.json",
-          "src/main/resources/assets/summercraft/blockstates/expend_amarilla.json"
+          "src/main/resources/assets/summercraft/blockstates/expend_amarilla.json",
+          "src/main/java/net/cs/summercraft/block/ExpendAmarillaBlock.java",
+          "src/main/resources/assets/summercraft/models/item/expend_amarilla.json"
         ]
       }
     },
@@ -52,6 +52,7 @@
   "language_map": {
     "en_us": {
       "block.summercraft.expend_amarilla": "Máquina expendedora amarilla",
+      "block.summercraft.cajero_automatico": "Cajero Automatico",
       "block.summercraft.tragaperras": "Máquina tragaperras"
     }
   },
