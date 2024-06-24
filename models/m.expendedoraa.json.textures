@@ -3,8 +3,8 @@
     "default": {
       "map": {
         "0": "base",
-        "1": "cristal",
-        "2": "interior",
+        "1": "interior",
+        "2": "cristal",
         "3": "cola",
         "4": "fani",
         "6": "fani2",

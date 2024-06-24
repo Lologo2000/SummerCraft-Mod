@@ -44,6 +44,21 @@
           "src/main/resources/assets/summercraft/models/block/cajero_automatico.json"
         ]
       }
+    },
+    {
+      "name": "ExpendAzul",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "expend_azul",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/summercraft/models/item/expend_azul.json",
+          "src/main/resources/assets/summercraft/models/block/expend_azul.json",
+          "src/main/java/net/cs/summercraft/block/ExpendAzulBlock.java",
+          "src/main/resources/assets/summercraft/blockstates/expend_azul.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -52,6 +67,7 @@
   "language_map": {
     "en_us": {
       "block.summercraft.expend_amarilla": "Máquina expendedora amarilla",
+      "block.summercraft.expend_azul": "Máquina expendedora azul",
       "block.summercraft.cajero_automatico": "Cajero Automatico",
       "block.summercraft.tragaperras": "Máquina tragaperras"
     }

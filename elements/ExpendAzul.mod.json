@@ -2,14 +2,14 @@
   "_fv": 60,
   "_type": "block",
   "definition": {
-    "texture": "base",
+    "texture": "base_azul",
     "textureTop": "base",
     "textureLeft": "base",
     "textureFront": "base",
     "textureRight": "base",
     "textureBack": "base",
     "renderType": 2,
-    "customModelName": "m.expendedoraa:default",
+    "customModelName": "m.expendedorab:default",
     "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -483,7 +483,7 @@
         "subtract": false
       }
     ],
-    "name": "Máquina expendedora amarilla",
+    "name": "Máquina expendedora azul",
     "specialInformation": {
       "fixedValue": []
     },

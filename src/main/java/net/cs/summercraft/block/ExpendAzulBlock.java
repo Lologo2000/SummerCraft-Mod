@@ -30,11 +30,11 @@ import net.cs.summercraft.init.SummercraftModBlocks;
 import java.util.List;
 import java.util.Collections;
 
-public class ExpendAmarillaBlock extends Block {
+public class ExpendAzulBlock extends Block {
 	public static BlockBehaviour.Properties PROPERTIES = BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false);
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
-	public ExpendAmarillaBlock() {
+	public ExpendAzulBlock() {
 		super(PROPERTIES);
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
@@ -111,6 +111,6 @@ public class ExpendAmarillaBlock extends Block {
 
 	@Environment(EnvType.CLIENT)
 	public static void clientInit() {
-		BlockRenderLayerMap.INSTANCE.putBlock(SummercraftModBlocks.EXPEND_AMARILLA, RenderType.solid());
+		BlockRenderLayerMap.INSTANCE.putBlock(SummercraftModBlocks.EXPEND_AZUL, RenderType.solid());
 	}
 }

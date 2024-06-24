@@ -10,6 +10,7 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.Registry;
 
 import net.cs.summercraft.block.TragaperrasBlock;
+import net.cs.summercraft.block.ExpendAzulBlock;
 import net.cs.summercraft.block.ExpendAmarillaBlock;
 import net.cs.summercraft.block.CajeroAutomaticoBlock;
 import net.cs.summercraft.SummercraftMod;
@@ -18,17 +19,20 @@ public class SummercraftModBlocks {
 	public static Block TRAGAPERRAS;
 	public static Block EXPEND_AMARILLA;
 	public static Block CAJERO_AUTOMATICO;
+	public static Block EXPEND_AZUL;
 
 	public static void load() {
 		TRAGAPERRAS = register("tragaperras", new TragaperrasBlock());
 		EXPEND_AMARILLA = register("expend_amarilla", new ExpendAmarillaBlock());
 		CAJERO_AUTOMATICO = register("cajero_automatico", new CajeroAutomaticoBlock());
+		EXPEND_AZUL = register("expend_azul", new ExpendAzulBlock());
 	}
 
 	public static void clientLoad() {
 		TragaperrasBlock.clientInit();
 		ExpendAmarillaBlock.clientInit();
 		CajeroAutomaticoBlock.clientInit();
+		ExpendAzulBlock.clientInit();
 	}
 
 	private static Block register(String registryName, Block block) {

@@ -1,9 +1,9 @@
 {
-  "parent": "summercraft:custom/m.expendedoraa",
+  "parent": "summercraft:custom/m.expendedorab",
   "textures": {
-    "all": "summercraft:block/base",
-    "particle": "summercraft:block/base",
-    "0": "summercraft:block/base",
+    "all": "summercraft:block/base_azul",
+    "particle": "summercraft:block/base_azul",
+    "0": "summercraft:block/base_azul",
     "1": "summercraft:block/interior",
     "2": "summercraft:block/cristal",
     "3": "summercraft:block/cola",

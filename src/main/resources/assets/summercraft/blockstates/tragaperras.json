@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "summercraft:block/tragaperras"
+    },
+    "facing=east": {
+      "model": "summercraft:block/tragaperras",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "summercraft:block/tragaperras",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "summercraft:block/tragaperras",
+      "y": 270
     }
   }
 }
