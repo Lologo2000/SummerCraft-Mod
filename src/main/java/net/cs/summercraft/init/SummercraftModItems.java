@@ -1,7 +1,7 @@
 /*
  *	MCreator note: This file will be REGENERATED on each build.
  */
-package net.crafteandoservidores.summercraft.init;
+package net.cs.summercraft.init;
 
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Item;
@@ -12,7 +12,7 @@ import net.minecraft.core.Registry;
 import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraft.client.renderer.item.ClampedItemPropertyFunction;
 
-import net.crafteandoservidores.summercraft.SummercraftMod;
+import net.cs.summercraft.SummercraftMod;
 
 public class SummercraftModItems {
 	public static Item CAJERO_AUTOMATICO_0;

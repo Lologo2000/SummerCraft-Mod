@@ -1,4 +1,4 @@
-package net.crafteandoservidores.summercraft.mixins;
+package net.cs.summercraft.mixins;
 
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 import org.spongepowered.asm.mixin.injection.Inject;

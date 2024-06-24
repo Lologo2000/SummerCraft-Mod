@@ -8,8 +8,8 @@
       "registry_name": "cajero_automatico_0",
       "metadata": {
         "files": [
+          "src/main/java/net/cs/summercraft/block/CajeroAutomatico0Block.java",
           "src/main/resources/assets/summercraft/models/item/cajero_automatico_0.json",
-          "src/main/java/net/crafteandoservidores/summercraft/block/CajeroAutomatico0Block.java",
           "src/main/resources/assets/summercraft/models/block/cajero_automatico_0.json",
           "src/main/resources/assets/summercraft/blockstates/cajero_automatico_0.json"
         ]
@@ -34,6 +34,7 @@
     "version": "24.6.24",
     "description": "Mod oficial del servidor de SummerCraft · Edición 2024",
     "author": "SummerCraft Team",
+    "websiteURL": "https://mcreator.net",
     "license": "All Rights Reserved",
     "serverSideOnly": false,
     "modPicture": "modpack_main_logo",
@@ -43,7 +44,7 @@
     "mcreatorDependencies": [],
     "currentGenerator": "fabric-1.20.1",
     "credits": "Codigo29, Braismp007",
-    "modElementsPackage": "net.crafteandoservidores.summercraft"
+    "modElementsPackage": "net.cs.summercraft"
   },
   "mcreatorVersion": 202400118518
 }

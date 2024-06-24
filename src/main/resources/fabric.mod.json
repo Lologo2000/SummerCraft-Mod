@@ -17,10 +17,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.crafteandoservidores.summercraft.SummercraftMod"
+      "net.cs.summercraft.SummercraftMod"
     ],
     "client": [
-      "net.crafteandoservidores.summercraft.ClientInit"
+      "net.cs.summercraft.ClientInit"
     ]
   },
   "depends": {

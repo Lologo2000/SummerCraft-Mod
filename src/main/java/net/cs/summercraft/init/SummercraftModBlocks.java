@@ -2,15 +2,15 @@
 /*
  *	MCreator note: This file will be REGENERATED on each build.
  */
-package net.crafteandoservidores.summercraft.init;
+package net.cs.summercraft.init;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.Registry;
 
-import net.crafteandoservidores.summercraft.block.CajeroAutomatico0Block;
-import net.crafteandoservidores.summercraft.SummercraftMod;
+import net.cs.summercraft.block.CajeroAutomatico0Block;
+import net.cs.summercraft.SummercraftMod;
 
 public class SummercraftModBlocks {
 	public static Block CAJERO_AUTOMATICO_0;

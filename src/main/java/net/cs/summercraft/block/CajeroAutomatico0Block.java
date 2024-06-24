@@ -1,5 +1,5 @@
 
-package net.crafteandoservidores.summercraft.block;
+package net.cs.summercraft.block;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
@@ -26,7 +26,7 @@ import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.api.Environment;
 import net.fabricmc.api.EnvType;
 
-import net.crafteandoservidores.summercraft.init.SummercraftModBlocks;
+import net.cs.summercraft.init.SummercraftModBlocks;
 
 import java.util.List;
 import java.util.Collections;
