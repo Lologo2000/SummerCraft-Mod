@@ -16,6 +16,21 @@
       }
     },
     {
+      "name": "ExpendAmarilla",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "expend_amarilla",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/summercraft/models/block/expend_amarilla.json",
+          "src/main/resources/assets/summercraft/blockstates/expend_amarilla.json",
+          "src/main/java/net/cs/summercraft/block/ExpendAmarillaBlock.java",
+          "src/main/resources/assets/summercraft/models/item/expend_amarilla.json"
+        ]
+      }
+    },
+    {
       "name": "Expendedoraamarilla",
       "type": "block",
       "compiles": true,
@@ -31,17 +46,17 @@
       }
     },
     {
-      "name": "ExpendAmarilla",
+      "name": "CajeroAutomatico0",
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "expend_amarilla",
+      "registry_name": "cajero_automatico_0",
       "metadata": {
         "files": [
-          "src/main/resources/assets/summercraft/models/block/expend_amarilla.json",
-          "src/main/resources/assets/summercraft/blockstates/expend_amarilla.json",
-          "src/main/java/net/cs/summercraft/block/ExpendAmarillaBlock.java",
-          "src/main/resources/assets/summercraft/models/item/expend_amarilla.json"
+          "src/main/java/net/cs/summercraft/block/CajeroAutomatico0Block.java",
+          "src/main/resources/assets/summercraft/models/block/cajero_automatico_0.json",
+          "src/main/resources/assets/summercraft/blockstates/cajero_automatico_0.json",
+          "src/main/resources/assets/summercraft/models/item/cajero_automatico_0.json"
         ]
       }
     }
@@ -50,11 +65,7 @@
   "sound_elements": [],
   "tag_elements": {},
   "language_map": {
-    "en_us": {
-      "block.summercraft.expend_amarilla": "Máquina expendedora amarilla",
-      "block.summercraft.expendedoraamarilla": "Máquina expendedora azul",
-      "block.summercraft.tragaperras": "Máquina tragaperras"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",

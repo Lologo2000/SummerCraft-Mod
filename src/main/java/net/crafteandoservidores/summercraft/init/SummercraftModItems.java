@@ -1,7 +1,7 @@
 /*
  *	MCreator note: This file will be REGENERATED on each build.
  */
-package net.cs.summercraft.init;
+package net.crafteandoservidores.summercraft.init;
 
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Item;
@@ -12,18 +12,12 @@ import net.minecraft.core.Registry;
 import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraft.client.renderer.item.ClampedItemPropertyFunction;
 
-import net.cs.summercraft.SummercraftMod;
+import net.crafteandoservidores.summercraft.SummercraftMod;
 
 public class SummercraftModItems {
-	public static Item TRAGAPERRAS;
-	public static Item EXPEND_AMARILLA;
-	public static Item EXPENDEDORAAMARILLA;
 	public static Item CAJERO_AUTOMATICO_0;
 
 	public static void load() {
-		TRAGAPERRAS = register("tragaperras", new BlockItem(SummercraftModBlocks.TRAGAPERRAS, new Item.Properties()));
-		EXPEND_AMARILLA = register("expend_amarilla", new BlockItem(SummercraftModBlocks.EXPEND_AMARILLA, new Item.Properties()));
-		EXPENDEDORAAMARILLA = register("expendedoraamarilla", new BlockItem(SummercraftModBlocks.EXPENDEDORAAMARILLA, new Item.Properties()));
 		CAJERO_AUTOMATICO_0 = register("cajero_automatico_0", new BlockItem(SummercraftModBlocks.CAJERO_AUTOMATICO_0, new Item.Properties()));
 	}
 

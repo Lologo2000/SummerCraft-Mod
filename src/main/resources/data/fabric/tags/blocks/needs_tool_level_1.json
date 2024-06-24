@@ -2,7 +2,8 @@
   "replace": false,
   "values": [
     "summercraft:tragaperras",
+    "summercraft:expend_amarilla",
     "summercraft:expendedoraamarilla",
-    "summercraft:expend_amarilla"
+    "summercraft:cajero_automatico_0"
   ]
 }
