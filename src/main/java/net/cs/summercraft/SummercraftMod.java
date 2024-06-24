@@ -17,6 +17,9 @@ import org.apache.logging.log4j.LogManager;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.cs.summercraft.init.SummercraftModItems;
+import net.cs.summercraft.init.SummercraftModBlocks;
+
 public class SummercraftMod implements ModInitializer {
 	public static final Logger LOGGER = LogManager.getLogger();
 	public static final String MODID = "summercraft";
@@ -24,6 +27,9 @@ public class SummercraftMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Initializing SummercraftMod");
+
+		SummercraftModBlocks.load();
+		SummercraftModItems.load();
 
 	}
 }

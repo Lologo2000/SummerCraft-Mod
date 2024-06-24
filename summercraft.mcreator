@@ -1,10 +1,60 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Tragaperras",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tragaperras",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/summercraft/blockstates/tragaperras.json",
+          "src/main/resources/assets/summercraft/models/item/tragaperras.json",
+          "src/main/java/net/cs/summercraft/block/TragaperrasBlock.java",
+          "src/main/resources/assets/summercraft/models/block/tragaperras.json"
+        ]
+      }
+    },
+    {
+      "name": "Expendedoraamarilla",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "expendedoraamarilla",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/summercraft/blockstates/expendedoraamarilla.json",
+          "src/main/java/net/cs/summercraft/block/ExpendedoraamarillaBlock.java",
+          "src/main/resources/assets/summercraft/models/block/expendedoraamarilla.json",
+          "src/main/resources/assets/summercraft/models/item/expendedoraamarilla.json"
+        ]
+      }
+    },
+    {
+      "name": "ExpendAmarilla",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "expend_amarilla",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/summercraft/models/block/expend_amarilla.json",
+          "src/main/resources/assets/summercraft/blockstates/expend_amarilla.json",
+          "src/main/java/net/cs/summercraft/block/ExpendAmarillaBlock.java",
+          "src/main/resources/assets/summercraft/models/item/expend_amarilla.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.summercraft.expend_amarilla": "Máquina expendedora amarilla",
+      "block.summercraft.expendedoraamarilla": "Máquina expendedora azul",
+      "block.summercraft.tragaperras": "Máquina tragaperras"
+    }
   },
   "foldersRoot": {
     "name": "~",

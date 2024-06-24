@@ -1,0 +1,10 @@
+{
+  "parent": "summercraft:custom/tragaperras",
+  "textures": {
+    "all": "summercraft:block/caja",
+    "particle": "summercraft:block/caja",
+    "1": "summercraft:block/botones",
+    "3": "summercraft:block/caja"
+  },
+  "render_type": "solid"
+}

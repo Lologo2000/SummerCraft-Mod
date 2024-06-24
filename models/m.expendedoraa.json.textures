@@ -1,0 +1,18 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "base",
+        "1": "cristal",
+        "2": "interior",
+        "3": "cola",
+        "4": "fani",
+        "6": "fani2",
+        "7": "agua1",
+        "8": "energy",
+        "9": "energy_naranja"
+      },
+      "name": "default"
+    }
+  }
+}

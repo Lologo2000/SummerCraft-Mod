@@ -1,0 +1,17 @@
+{
+  "parent": "summercraft:custom/m.expendedora",
+  "textures": {
+    "all": "summercraft:block/base_azul",
+    "particle": "summercraft:block/base_azul",
+    "0": "summercraft:block/base_azul",
+    "1": "summercraft:block/cristal",
+    "2": "summercraft:block/interior",
+    "3": "summercraft:block/cola",
+    "4": "summercraft:block/fani",
+    "6": "summercraft:block/fani2",
+    "7": "summercraft:block/agua1",
+    "8": "summercraft:block/energy",
+    "9": "summercraft:block/energy_naranja"
+  },
+  "render_type": "solid"
+}

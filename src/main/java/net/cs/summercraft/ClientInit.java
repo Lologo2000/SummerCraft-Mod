@@ -16,10 +16,14 @@ import net.fabricmc.api.Environment;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.ClientModInitializer;
 
+import net.cs.summercraft.init.SummercraftModBlocks;
+
 @Environment(EnvType.CLIENT)
 public class ClientInit implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
+
+		SummercraftModBlocks.clientLoad();
 
 	}
 }
