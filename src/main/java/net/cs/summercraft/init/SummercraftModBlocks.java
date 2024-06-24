@@ -9,10 +9,9 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.Registry;
 
+import net.cs.summercraft.block.TragaperrasBlock;
+import net.cs.summercraft.block.ExpendAmarillaBlock;
 import net.cs.summercraft.SummercraftMod;
-
-import net.crafteandoservidores.summercraft.block.TragaperrasBlock;
-import net.crafteandoservidores.summercraft.block.ExpendAmarillaBlock;
 
 public class SummercraftModBlocks {
 	public static Block TRAGAPERRAS;
