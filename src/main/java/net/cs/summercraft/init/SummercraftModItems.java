@@ -12,6 +12,11 @@ import net.minecraft.core.Registry;
 import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraft.client.renderer.item.ClampedItemPropertyFunction;
 
+import net.cs.summercraft.item.FaniLimonItem;
+import net.cs.summercraft.item.FaniItem;
+import net.cs.summercraft.item.EnergynaranjaItem;
+import net.cs.summercraft.item.EnergyItem;
+import net.cs.summercraft.item.ColaItem;
 import net.cs.summercraft.SummercraftMod;
 
 public class SummercraftModItems {
@@ -21,6 +26,11 @@ public class SummercraftModItems {
 	public static Item EXPEND_AZUL;
 	public static Item EXPEND_ROJA;
 	public static Item EXPEND_VIOLETA;
+	public static Item COLA;
+	public static Item ENERGY;
+	public static Item ENERGYNARANJA;
+	public static Item FANI;
+	public static Item FANI_LIMON;
 
 	public static void load() {
 		TRAGAPERRAS = register("tragaperras", new BlockItem(SummercraftModBlocks.TRAGAPERRAS, new Item.Properties()));
@@ -29,6 +39,11 @@ public class SummercraftModItems {
 		EXPEND_AZUL = register("expend_azul", new BlockItem(SummercraftModBlocks.EXPEND_AZUL, new Item.Properties()));
 		EXPEND_ROJA = register("expend_roja", new BlockItem(SummercraftModBlocks.EXPEND_ROJA, new Item.Properties()));
 		EXPEND_VIOLETA = register("expend_violeta", new BlockItem(SummercraftModBlocks.EXPEND_VIOLETA, new Item.Properties()));
+		COLA = register("cola", new ColaItem());
+		ENERGY = register("energy", new EnergyItem());
+		ENERGYNARANJA = register("energynaranja", new EnergynaranjaItem());
+		FANI = register("fani", new FaniItem());
+		FANI_LIMON = register("fani_limon", new FaniLimonItem());
 	}
 
 	public static void clientLoad() {

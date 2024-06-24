@@ -1,0 +1,35 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "Maquina expendedora/energy_naranja",
+		"particle": "Maquina expendedora/energy_naranja"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [2, 4, 2],
+			"faces": {
+				"north": {"uv": [2, 2, 4, 6], "texture": "#0"},
+				"east": {"uv": [0, 2, 2, 6], "texture": "#0"},
+				"south": {"uv": [6, 2, 8, 6], "texture": "#0"},
+				"west": {"uv": [4, 2, 6, 6], "texture": "#0"},
+				"up": {"uv": [4, 2, 2, 0], "texture": "#0"},
+				"down": {"uv": [6, 0, 4, 2], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [7, 6.25, 6],
+			"scale": [1.04688, 1.19336, 1]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0]
+		}
+	]
+}

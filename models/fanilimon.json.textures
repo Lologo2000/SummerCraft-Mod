@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "fani2"
+      },
+      "name": "default"
+    }
+  }
+}

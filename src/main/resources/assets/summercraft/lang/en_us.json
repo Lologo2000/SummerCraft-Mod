@@ -1,8 +1,13 @@
 {
   "block.summercraft.expend_amarilla": "Máquina expendedora amarilla",
+  "item.summercraft.cola": "Cola",
   "block.summercraft.expend_violeta": "Máquina expendedora violeta",
+  "item.summercraft.energynaranja": "Energy Naranja",
   "block.summercraft.expend_azul": "Máquina expendedora azul",
+  "item.summercraft.fani": "Fani de naranja",
   "block.summercraft.cajero_automatico": "Cajero Automatico",
   "block.summercraft.expend_roja": "Máquina expendedora roja",
-  "block.summercraft.tragaperras": "Máquina tragaperras"
+  "block.summercraft.tragaperras": "Máquina tragaperras",
+  "item.summercraft.energy": "Energy Original",
+  "item.summercraft.fani_limon": "Fani de naranja"
 }

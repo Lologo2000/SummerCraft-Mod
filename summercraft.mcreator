@@ -89,6 +89,71 @@
           "src/main/resources/assets/summercraft/models/block/expend_violeta.json"
         ]
       }
+    },
+    {
+      "name": "Cola",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cola",
+      "metadata": {
+        "files": [
+          "src/main/java/net/cs/summercraft/item/ColaItem.java",
+          "src/main/resources/assets/summercraft/models/item/cola.json"
+        ]
+      }
+    },
+    {
+      "name": "Energy",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energy",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/summercraft/models/item/energy.json",
+          "src/main/java/net/cs/summercraft/item/EnergyItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Energynaranja",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energynaranja",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/summercraft/models/item/energynaranja.json",
+          "src/main/java/net/cs/summercraft/item/EnergynaranjaItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Fani",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fani",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/summercraft/models/item/fani.json",
+          "src/main/java/net/cs/summercraft/item/FaniItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FaniLimon",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fani_limon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/summercraft/models/item/fani_limon.json",
+          "src/main/java/net/cs/summercraft/item/FaniLimonItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -97,11 +162,16 @@
   "language_map": {
     "en_us": {
       "block.summercraft.expend_amarilla": "Máquina expendedora amarilla",
+      "item.summercraft.cola": "Cola",
       "block.summercraft.expend_violeta": "Máquina expendedora violeta",
+      "item.summercraft.energynaranja": "Energy Naranja",
       "block.summercraft.expend_azul": "Máquina expendedora azul",
+      "item.summercraft.fani": "Fani de naranja",
       "block.summercraft.cajero_automatico": "Cajero Automatico",
       "block.summercraft.expend_roja": "Máquina expendedora roja",
-      "block.summercraft.tragaperras": "Máquina tragaperras"
+      "block.summercraft.tragaperras": "Máquina tragaperras",
+      "item.summercraft.energy": "Energy Original",
+      "item.summercraft.fani_limon": "Fani de naranja"
     }
   },
   "foldersRoot": {
