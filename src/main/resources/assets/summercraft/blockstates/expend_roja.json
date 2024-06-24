@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "summercraft:block/expend_roja"
+    },
+    "facing=east": {
+      "model": "summercraft:block/expend_roja",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "summercraft:block/expend_roja",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "summercraft:block/expend_roja",
+      "y": 270
+    }
+  }
+}

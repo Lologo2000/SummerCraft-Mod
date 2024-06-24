@@ -1,0 +1,17 @@
+{
+  "parent": "summercraft:custom/m.expendedorav",
+  "textures": {
+    "all": "summercraft:block/base_violeta",
+    "particle": "summercraft:block/base_violeta",
+    "0": "summercraft:block/base_violeta",
+    "1": "summercraft:block/interior",
+    "2": "summercraft:block/cristal",
+    "3": "summercraft:block/cola",
+    "4": "summercraft:block/fani",
+    "6": "summercraft:block/fani2",
+    "7": "summercraft:block/agua1",
+    "8": "summercraft:block/energy",
+    "9": "summercraft:block/energy_naranja"
+  },
+  "render_type": "solid"
+}

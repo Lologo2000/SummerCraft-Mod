@@ -59,6 +59,36 @@
           "src/main/resources/assets/summercraft/blockstates/expend_azul.json"
         ]
       }
+    },
+    {
+      "name": "ExpendRoja",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "expend_roja",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/summercraft/models/block/expend_roja.json",
+          "src/main/java/net/cs/summercraft/block/ExpendRojaBlock.java",
+          "src/main/resources/assets/summercraft/models/item/expend_roja.json",
+          "src/main/resources/assets/summercraft/blockstates/expend_roja.json"
+        ]
+      }
+    },
+    {
+      "name": "ExpendVioleta",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "expend_violeta",
+      "metadata": {
+        "files": [
+          "src/main/java/net/cs/summercraft/block/ExpendVioletaBlock.java",
+          "src/main/resources/assets/summercraft/models/item/expend_violeta.json",
+          "src/main/resources/assets/summercraft/blockstates/expend_violeta.json",
+          "src/main/resources/assets/summercraft/models/block/expend_violeta.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -67,8 +97,10 @@
   "language_map": {
     "en_us": {
       "block.summercraft.expend_amarilla": "Máquina expendedora amarilla",
+      "block.summercraft.expend_violeta": "Máquina expendedora violeta",
       "block.summercraft.expend_azul": "Máquina expendedora azul",
       "block.summercraft.cajero_automatico": "Cajero Automatico",
+      "block.summercraft.expend_roja": "Máquina expendedora roja",
       "block.summercraft.tragaperras": "Máquina tragaperras"
     }
   },
