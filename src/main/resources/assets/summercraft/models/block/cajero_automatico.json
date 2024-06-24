@@ -1,0 +1,9 @@
+{
+  "parent": "summercraft:custom/cajero_automatico_0",
+  "textures": {
+    "all": "summercraft:block/texture_cajero_2",
+    "particle": "summercraft:block/texture_cajero_2",
+    "2": "summercraft:block/texture_cajero_2"
+  },
+  "render_type": "solid"
+}
