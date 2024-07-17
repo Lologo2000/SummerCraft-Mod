@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "texture_esqueleto",
+        "1": "texture_plataforma_escenario"
+      },
+      "name": "default"
+    }
+  }
+}

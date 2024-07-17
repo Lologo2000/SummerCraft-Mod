@@ -15,6 +15,7 @@ import net.cs.summercraft.block.ExpendRojaBlock;
 import net.cs.summercraft.block.ExpendAzulBlock;
 import net.cs.summercraft.block.ExpendAmarillaBlock;
 import net.cs.summercraft.block.CajeroAutomaticoBlock;
+import net.cs.summercraft.block.ArmaduraEscenarioBlock;
 import net.cs.summercraft.SummercraftMod;
 
 public class SummercraftModBlocks {
@@ -24,6 +25,7 @@ public class SummercraftModBlocks {
 	public static Block EXPEND_AZUL;
 	public static Block EXPEND_ROJA;
 	public static Block EXPEND_VIOLETA;
+	public static Block ARMADURA_ESCENARIO;
 
 	public static void load() {
 		TRAGAPERRAS = register("tragaperras", new TragaperrasBlock());
@@ -32,6 +34,7 @@ public class SummercraftModBlocks {
 		EXPEND_AZUL = register("expend_azul", new ExpendAzulBlock());
 		EXPEND_ROJA = register("expend_roja", new ExpendRojaBlock());
 		EXPEND_VIOLETA = register("expend_violeta", new ExpendVioletaBlock());
+		ARMADURA_ESCENARIO = register("armadura_escenario", new ArmaduraEscenarioBlock());
 	}
 
 	public static void clientLoad() {
@@ -41,6 +44,7 @@ public class SummercraftModBlocks {
 		ExpendAzulBlock.clientInit();
 		ExpendRojaBlock.clientInit();
 		ExpendVioletaBlock.clientInit();
+		ArmaduraEscenarioBlock.clientInit();
 	}
 
 	private static Block register(String registryName, Block block) {

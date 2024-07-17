@@ -154,6 +154,21 @@
           "src/main/java/net/cs/summercraft/item/FaniLimonItem.java"
         ]
       }
+    },
+    {
+      "name": "ArmaduraEscenario",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armadura_escenario",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/summercraft/models/item/armadura_escenario.json",
+          "src/main/java/net/cs/summercraft/block/ArmaduraEscenarioBlock.java",
+          "src/main/resources/assets/summercraft/blockstates/armadura_escenario.json",
+          "src/main/resources/assets/summercraft/models/block/armadura_escenario.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -161,17 +176,18 @@
   "tag_elements": {},
   "language_map": {
     "en_us": {
-      "block.summercraft.expend_amarilla": "Máquina expendedora amarilla",
       "item.summercraft.cola": "Cola",
       "block.summercraft.expend_violeta": "Máquina expendedora violeta",
       "item.summercraft.energynaranja": "Energy Naranja",
+      "block.summercraft.cajero_automatico": "Cajero Automatico",
+      "item.summercraft.fani_limon": "Fani de limón",
+      "block.summercraft.expend_amarilla": "Máquina expendedora amarilla",
+      "block.summercraft.armadura_escenario": "Armadura Escenario",
       "block.summercraft.expend_azul": "Máquina expendedora azul",
       "item.summercraft.fani": "Fani de naranja",
-      "block.summercraft.cajero_automatico": "Cajero Automatico",
       "block.summercraft.expend_roja": "Máquina expendedora roja",
       "block.summercraft.tragaperras": "Máquina tragaperras",
-      "item.summercraft.energy": "Energy Original",
-      "item.summercraft.fani_limon": "Fani de limón"
+      "item.summercraft.energy": "Energy Original"
     }
   },
   "foldersRoot": {
@@ -184,7 +200,7 @@
     "version": "24.6.24",
     "description": "Mod oficial del servidor de SummerCraft · Edición 2024",
     "author": "SummerCraft Team",
-    "websiteURL": "https://mcreator.net",
+    "websiteURL": "https://modrinth.com/organization/summercraft-team",
     "license": "All Rights Reserved",
     "serverSideOnly": false,
     "modPicture": "modpack_main_logo",

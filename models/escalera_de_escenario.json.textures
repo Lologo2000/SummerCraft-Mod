@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "texture_esqueleto_escalera_escenario",
+        "1": "texture_plataforma_escalera_escenario"
+      },
+      "name": "default"
+    }
+  }
+}

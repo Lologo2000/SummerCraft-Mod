@@ -31,6 +31,7 @@ public class SummercraftModItems {
 	public static Item ENERGYNARANJA;
 	public static Item FANI;
 	public static Item FANI_LIMON;
+	public static Item ARMADURA_ESCENARIO;
 
 	public static void load() {
 		TRAGAPERRAS = register("tragaperras", new BlockItem(SummercraftModBlocks.TRAGAPERRAS, new Item.Properties()));
@@ -44,6 +45,7 @@ public class SummercraftModItems {
 		ENERGYNARANJA = register("energynaranja", new EnergynaranjaItem());
 		FANI = register("fani", new FaniItem());
 		FANI_LIMON = register("fani_limon", new FaniLimonItem());
+		ARMADURA_ESCENARIO = register("armadura_escenario", new BlockItem(SummercraftModBlocks.ARMADURA_ESCENARIO, new Item.Properties()));
 	}
 
 	public static void clientLoad() {

@@ -1,0 +1,9 @@
+{
+  "parent": "summercraft:custom/esqueleto_escenario",
+  "textures": {
+    "all": "summercraft:block/texture_esqueleto_escalera_escenario",
+    "particle": "summercraft:block/texture_esqueleto_escalera_escenario",
+    "0": "summercraft:block/texture_esqueleto_escenario"
+  },
+  "render_type": "solid"
+}
